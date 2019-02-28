@@ -23,7 +23,7 @@ class Transfer
   end
     if sender.valid? == false
       self.status = "rejected"
-      "Transaction rejected. Please check your account balance."
+       puts "Transaction rejected. Please check your account balance."
     end
   end
 end
