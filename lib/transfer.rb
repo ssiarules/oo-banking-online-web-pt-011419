@@ -19,7 +19,7 @@ class Transfer
     status == "complete"
     sender.balance -= amount
     receiver.balance += amount
-    status = "complete "
+    @status = "complete "
 
   end
 
