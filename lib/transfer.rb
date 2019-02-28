@@ -12,8 +12,8 @@ class Transfer
   def valid?
       #binding.pry
      @status == "pending" && @amount > 0 ? true : false
-     @sender && @receiver 
+     @sender && @receiver
   end
 
-  
+
 end
