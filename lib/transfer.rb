@@ -10,8 +10,7 @@ class Transfer
   end
 
   def valid?
-
-     #@status == "pending" && @amount > 0 ? true : false
+    #@status == "pending" && @amount > 0 ? true : false
      @sender.valid? && @receiver.valid?
   end
 
